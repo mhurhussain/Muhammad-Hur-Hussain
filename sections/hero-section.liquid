@@ -126,9 +126,11 @@
                 <div class="left-container">
                     <div class="hero-main-bottom-innerblock">
                         <div class="hero-main-bottom-content-block">
-                            <h1 class="hero-main-bottom-content-title">
-                                
-                            </h1>
+                            {% if section.settings.title != blank %}
+                                <h1 class="hero-main-bottom-content-title">
+    
+                                </h1>
+                            {% endif %}
                             <div class="hero-main-bottom-content-text-block"></div>
                             {% if section.settings.content_btn_label != blank %}
                                 <div class="hero-main-bottom-content-btn-block hero-main-bottom-content-btn-block-{{ section.id }}">
