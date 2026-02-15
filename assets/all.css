@@ -211,8 +211,8 @@
 
 .product-grid-overlay-add {
     position: absolute;
-    width: 22px;
-    height: 22px;
+    width: clamp(15px, 1.528vw, 22px);
+    height: clamp(15px, 1.528vw, 22px);
     opacity: 0.9;
     display: flex;
     align-items: center;
@@ -222,8 +222,7 @@
     z-index: 1;
     transition: all 0.3s ease-in-out;
     Background-color: #F8F8F8;
-    border-radius: 22px;
-}
+    border-radius: clamp(15px, 1.528vw, 22px);
 
 .product-grid-overlay-add:hover {
     opacity: 1;
