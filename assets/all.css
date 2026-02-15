@@ -15,6 +15,7 @@
     line-height: 100%;
     letter-spacing: normal;
     text-transform: uppercase;
+    text-decoration: none;
     display: flex;
     align-items: center;
     gap: 18px;
