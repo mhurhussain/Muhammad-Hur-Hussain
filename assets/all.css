@@ -223,6 +223,7 @@
     transition: all 0.3s ease-in-out;
     Background-color: #F8F8F8;
     border-radius: clamp(15px, 1.528vw, 22px);
+}
 
 .product-grid-overlay-add:hover {
     opacity: 1;
