@@ -27,6 +27,8 @@
 @media screen only and (max-width: 768px) {
     .hero-top-bar-hambuger-block {
         display: block;
-        
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
