@@ -128,12 +128,12 @@
                         <div class="hero-main-bottom-content-block">
                             {% if section.settings.title != blank %}
                                 <h1 class="hero-main-bottom-content-title">
-    
+                                    {{ section.settings.title }}
                                 </h1>
                             {% endif %}
                             {% if section.settings.desc != blank %}
                                 <div class="hero-main-bottom-content-text-block">
-                                    
+                                    {{ section.settings.desc }}
                                 </div>
                             {% endif %}
                             {% if section.settings.content_btn_label != blank %}
