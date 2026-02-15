@@ -189,6 +189,12 @@
     margin-bottom: clamp(20px, 2.083vw, 30px);
 }
 
+.product-grid-area {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+}
+
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
