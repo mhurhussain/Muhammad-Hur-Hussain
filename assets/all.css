@@ -2,6 +2,12 @@
 
 .jost { font-family: "Jost", sans-serif; }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .primary-container {
     max-width: 1308px;
     margin: 0 auto;
