@@ -127,8 +127,8 @@
           "type": "products",
           "settings": {
             "select_product": "blue-silk-tuxedo",
-            "top_desktop": 50,
-            "left_desktop": 50,
+            "top_desktop": 55,
+            "left_desktop": 84,
             "top_mobile": 50,
             "left_mobile": 50
           }
