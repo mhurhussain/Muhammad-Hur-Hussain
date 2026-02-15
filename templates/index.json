@@ -77,10 +77,19 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "hero_section_DMnafg": {
+      "type": "hero-section",
+      "name": "Hero Section",
+      "settings": {
+        "bg-color": "#ffffff",
+        "top_bar_bg-color": "#F5F5F5"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "hero_section_DMnafg"
   ]
 }
