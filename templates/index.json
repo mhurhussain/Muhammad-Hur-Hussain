@@ -139,8 +139,8 @@
             "select_product": "chequered-red-shirt",
             "top_desktop": 20,
             "left_desktop": 60,
-            "top_mobile": 50,
-            "left_mobile": 50
+            "top_mobile": 15,
+            "left_mobile": 60
           }
         },
         "products_hHriP9": {
