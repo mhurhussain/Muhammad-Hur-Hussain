@@ -240,4 +240,8 @@
         width: 100%;
         text-align: center;
     }
+    .hero-main-bottom-block .left-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
