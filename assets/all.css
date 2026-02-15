@@ -8,6 +8,14 @@
     padding-inline: 16px;
 }
 
+.primary-btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: normal;
+}
+
 /* Hero section */
 .hero-top-bar-block {
     padding: 10px 0;
