@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 .jost { font-family: "Jost", sans-serif; }
 
+.primary-container {
+    max-width: 1308px;
+    margin: 0 auto;
+    padding-inline: 16px;
+}
