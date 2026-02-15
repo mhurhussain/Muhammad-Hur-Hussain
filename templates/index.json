@@ -116,37 +116,61 @@
         "products_RP3U8c": {
           "type": "products",
           "settings": {
-            "select_product": "black-leather-bag"
+            "select_product": "black-leather-bag",
+            "top_desktop": 55,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         },
         "products_TX6nxK": {
           "type": "products",
           "settings": {
-            "select_product": "blue-silk-tuxedo"
+            "select_product": "blue-silk-tuxedo",
+            "top_desktop": 50,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         },
         "products_kNQ9th": {
           "type": "products",
           "settings": {
-            "select_product": "chequered-red-shirt"
+            "select_product": "chequered-red-shirt",
+            "top_desktop": 50,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         },
         "products_hHriP9": {
           "type": "products",
           "settings": {
-            "select_product": "classic-leather-jacket"
+            "select_product": "classic-leather-jacket",
+            "top_desktop": 50,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         },
         "products_PELkw9": {
           "type": "products",
           "settings": {
-            "select_product": "classic-varsity-top"
+            "select_product": "classic-varsity-top",
+            "top_desktop": 50,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         },
         "products_KnDmzJ": {
           "type": "products",
           "settings": {
-            "select_product": "dark-denim-top"
+            "select_product": "dark-denim-top",
+            "top_desktop": 50,
+            "left_desktop": 50,
+            "top_mobile": 50,
+            "left_mobile": 50
           }
         }
       },
