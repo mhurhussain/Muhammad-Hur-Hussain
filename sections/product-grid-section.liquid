@@ -2,12 +2,17 @@
   .product-grid-block-{{ section.id }} {
     background: {{ section.settings.bg-color }};
   }
+  .product-grid-innerblock-{{ section.id }} .product-grid-heading {
+    color: {{ section.settings.title_color }}
+  }
 {% endstyle %}
 
 <div class="product-grid-block product-grid-block-{{ section.id }}">
     <div class="primary-container">
         <div class="product-grid-innerblock product-grid-innerblock-{{ section.id }}">
-            <h2 class="product-grid-heading"></h2>
+            <h2 class="product-grid-heading">
+                {{ section.settings.title }}
+            </h2>
         </div>
     </div>
 </div>
