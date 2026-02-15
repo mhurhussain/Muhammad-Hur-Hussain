@@ -18,8 +18,8 @@
                     {% assign card_product = block.settings.select_product %}
                     {% style %}
                       .product-grid-overlay-add {
-                        top: {{ card_product.settings.top }}%;
-                        left: {{ card_product.settings.left }}%;
+                        top: {{ card_product.settings.top_desktop }}%;
+                        left: {{ card_product.settings.left_desktop }}%;
                         translate: translate(-{{ card_product.settings.top_desktop }}%, -{{ card_product.settings.left_desktop }}%);
                       }
 
