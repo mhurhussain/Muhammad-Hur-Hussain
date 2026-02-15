@@ -255,4 +255,8 @@
     .hero-main-bottom-content-text-block {
         padding-bottom: 0;
     }
+    .hero-main-bottom-over-btn-block {
+        display: block;
+        position: absolute;
+    }
 }
