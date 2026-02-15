@@ -153,7 +153,7 @@
 .hero-main-bottom-content-text-block li {
     font-family: "Jost", sans-serif;
     font-weight: 400;
-    font-size: clamp(16px, 4.861vw, 20px);
+    font-size: clamp(16px, 1.389vw, 20px);
     line-height: 140%;
     letter-spacing: normal;
 }
