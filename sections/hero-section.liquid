@@ -3,7 +3,9 @@
 {% endstyle %}
 
 <div class="hero-block hero-block-{{ section.id }}">
-    
+    <div class="hero-innerblock hero-innerblock-{{ section.id }}">
+
+    </div>
 </div>
 
 {% schema %}
@@ -11,7 +13,13 @@
     "name": "Hero Section",
     "tag": "section",
     "class": "hero-sc",
-    "settings": [],
+    "settings": [
+        {
+            "type": "color_background",
+            "id": "bg-color",
+            "label": "Section Background Color"
+        }
+    ],
     "blocks": [],
     "presets": [
         {
