@@ -148,6 +148,11 @@
     letter-spacing: normal;
 }
 
+.hero-main-bottom-content-text-block {
+    padding-top: clamp(24px, 3.472vw, 50px);
+    padding-bottom: clamp(24px, 3.472vw, 50px);
+}
+
 .hero-main-bottom-content-text-block p,
 .hero-main-bottom-content-text-block a,
 .hero-main-bottom-content-text-block li {
