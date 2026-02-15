@@ -219,4 +219,8 @@
         text-align: center;
         gap: 16px;
     }
+    .hero-main-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
