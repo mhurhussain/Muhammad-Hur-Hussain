@@ -21,6 +21,15 @@
     gap: 18px;
     padding: 12px 22px 12px 40px;
     transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.primary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 /* Hero section */
