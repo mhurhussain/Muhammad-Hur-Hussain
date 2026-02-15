@@ -35,6 +35,11 @@
     transition: width 0.3s ease-in-out;
 }
 
+.primary-btn:hover::before {
+    width: 100%;
+    z-index: 1;
+}
+
 /* Hero section */
 .hero-top-bar-block {
     padding: 10px 0;
