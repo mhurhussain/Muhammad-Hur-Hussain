@@ -16,6 +16,12 @@
             <div class="product-grid-area">
                 {% for block in section.blocks %}
                     {% assign card_product = block.settings.select_product %}
+                    {% style %}
+                      .product-grid-overlay-add {
+                        top: {{ card_product.settings.top }}%;
+                        left: {{ card_product.settings.left }}%;
+                      }
+                    {% endstyle %}
                     <div class="product-grid" {{ block.shopify_attributes }}>
                         <div class="product-grid-img">
                             <img
