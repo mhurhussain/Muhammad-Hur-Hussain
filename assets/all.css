@@ -266,4 +266,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .hero-main-top-img-block img {
+        height: 264px;
+    }
 }
