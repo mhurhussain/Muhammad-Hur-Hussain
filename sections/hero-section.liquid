@@ -131,7 +131,11 @@
     
                                 </h1>
                             {% endif %}
-                            <div class="hero-main-bottom-content-text-block"></div>
+                            {% if section.settings.desc != blank %}
+                                <div class="hero-main-bottom-content-text-block">
+                                    
+                                </div>
+                            {% endif %}
                             {% if section.settings.content_btn_label != blank %}
                                 <div class="hero-main-bottom-content-btn-block hero-main-bottom-content-btn-block-{{ section.id }}">
                                     <a href="{{ section.settings.content_btn_url }}" class="primary-btn">
