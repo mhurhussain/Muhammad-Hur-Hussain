@@ -95,6 +95,14 @@
     padding: 10px 0;
 }
 
+.hero-bottom-bar-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13.42px;
+    letter-spacing: normal;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
