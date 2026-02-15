@@ -86,7 +86,14 @@
         "top_bar_bg-color": "#F5F5F5",
         "logo": "shopify://shop_images/Group_1000007777.png",
         "text_color": "",
-        "text": "Find the ideal gift for your loved ones."
+        "text": "Find the ideal gift for your loved ones.",
+        "top_bar_btn_bg_color": "#fff544",
+        "top_bar_hover_btn_bg_color": "#000000",
+        "top_bar_btn_label_color": "#000000",
+        "top_bar_hover_btn_label_color": "#ffffff",
+        "show_top_bar_brn_arrow": false,
+        "top_bar_btn_label": "",
+        "top_bar_btn_url": ""
       }
     }
   },
