@@ -101,4 +101,7 @@
     .hero-top-bar-hambuger-block.active svg.close {
         display: block;
     }
+    .hero-top-bar-text-block {
+        display: none;
+    }
 }
