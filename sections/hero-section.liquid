@@ -2,6 +2,9 @@
   .hero-block-{{ section.id }} {
     background: {{ section.settings.bg-color }};
   }
+  .hero-top-bar-block-{{ section.id }} {
+
+  }
 {% endstyle %}
 
 <div class="hero-block hero-block-{{ section.id }}">
@@ -26,7 +29,12 @@
             "type": "color_background",
             "id": "bg-color",
             "label": "Section Background Color"
-        }
+        },
+        {
+            "type": "color_background",
+            "id": "top_bar_bg-color",
+            "label": "Top Bar Background Color"
+        },
     ],
     "blocks": [],
     "presets": [
