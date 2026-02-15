@@ -91,7 +91,9 @@
     display: block;
 }
 
-
+.hero-bottom-bar-block {
+    padding: 10px 0;
+}
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
