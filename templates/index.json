@@ -112,6 +112,17 @@
     },
     "product_grid_section_mgUwJc": {
       "type": "product-grid-section",
+      "blocks": {
+        "products_RP3U8c": {
+          "type": "products",
+          "settings": {
+            "select_product": "black-leather-bag"
+          }
+        }
+      },
+      "block_order": [
+        "products_RP3U8c"
+      ],
       "name": "Product Grid",
       "settings": {
         "bg_color": "#ffffff",
