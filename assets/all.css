@@ -23,3 +23,10 @@
 .hero-top-bar-hambuger-block {
     display: none;
 }
+
+@media screen only and (max-width: 768px) {
+    .hero-top-bar-hambuger-block {
+        display: block;
+        
+    }
+}
