@@ -23,6 +23,9 @@
           fill: {{ section.settings.top_bar_hover_btn_label_color }};
       }
   {% endif %}
+  .hero-bottom-bar-block-{{ section.id }} {
+    background: {{ section.settings.bottom_bar_bg-color }};
+  }
 {% endstyle %}
 
 <div class="hero-block hero-block-{{ section.id }}">
@@ -115,7 +118,7 @@
         <div class="hero-bottom-bar-block hero-bottom-bar-block-{{ section.id }}">
             <div class="primary-container">
                 <p class="hero-bottom-bar-text">
-                    
+
                 </p>
             </div>
         </div>
