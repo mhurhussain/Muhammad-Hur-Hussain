@@ -115,6 +115,10 @@
     object-fit: cover;
 }
 
+.hero-main-top-img-block img:last-child {
+    display: none;
+}
+
 .hero-main-bottom-innerblock {
     display: flex;
 }
