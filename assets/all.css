@@ -19,3 +19,7 @@
     justify-content: space-between;
     gap: 10px;
 }
+
+.hero-top-bar-hambuger-block {
+    display: none;
+}
