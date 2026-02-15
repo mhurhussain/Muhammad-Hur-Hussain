@@ -248,4 +248,7 @@
     .hero-main-bottom-content-btn-block {
         display: none;
     }
+    .hero-main-bottom-content-text-block {
+        padding-bottom: 0;
+    }
 }
