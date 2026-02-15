@@ -136,4 +136,10 @@
         visibility: visible;
         transform: translateY(0%);
     }
+    .hero-top-bar-mobile-innerblock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
