@@ -262,9 +262,9 @@
     .hero-main-bottom-over-btn-block {
         display: block;
         position: absolute;
-        top: 50%;
+        bottom: 39px;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translateX(-50%);
     }
     .hero-main-top-img-block img {
         height: 264px;
