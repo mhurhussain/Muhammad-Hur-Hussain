@@ -19,11 +19,11 @@
                     <div class="product-grid" {{ block.shopify_attributes }}>
                         <div class="product-grid-img">
                             <img
-                                src=""
-                                alt=""
-                                width=""
-                                height=""
-                                loading=lazy
+                                src="{{ card_product.featured_image | image_url: width: 600 }}"
+                                alt="{{ card_product.featured_image.alt | escape }}"
+                                width="600"
+                                height="600"
+                                loading="lazy"
                             >
                         </div>
                     </div>
