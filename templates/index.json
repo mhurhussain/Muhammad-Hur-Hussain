@@ -159,8 +159,8 @@
             "select_product": "classic-varsity-top",
             "top_desktop": 27,
             "left_desktop": 49,
-            "top_mobile": 50,
-            "left_mobile": 50
+            "top_mobile": 16,
+            "left_mobile": 64
           }
         },
         "products_KnDmzJ": {
@@ -169,8 +169,8 @@
             "select_product": "dark-denim-top",
             "top_desktop": 40,
             "left_desktop": 75,
-            "top_mobile": 50,
-            "left_mobile": 50
+            "top_mobile": 14,
+            "left_mobile": 62
           }
         }
       },
