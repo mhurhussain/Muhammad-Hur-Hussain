@@ -109,11 +109,17 @@
         "content_btn_label": "Shop Now",
         "content_btn_url": "#."
       }
+    },
+    "product_grid_section_mgUwJc": {
+      "type": "product-grid-section",
+      "name": "Product Grid",
+      "settings": {}
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "hero_section_DMnafg"
+    "hero_section_DMnafg",
+    "product_grid_section_mgUwJc"
   ]
 }
