@@ -157,8 +157,8 @@
           "type": "products",
           "settings": {
             "select_product": "classic-varsity-top",
-            "top_desktop": 50,
-            "left_desktop": 50,
+            "top_desktop": 27,
+            "left_desktop": 49,
             "top_mobile": 50,
             "left_mobile": 50
           }
