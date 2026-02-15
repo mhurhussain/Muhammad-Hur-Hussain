@@ -35,4 +35,7 @@
     .hero-top-bar-hambuger-block svg.close {
         display: none;
     }
+    .hero-top-bar-hambuger-block.active svg.close {
+        display: block;
+    }
 }
