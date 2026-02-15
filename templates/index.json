@@ -147,8 +147,8 @@
           "type": "products",
           "settings": {
             "select_product": "classic-leather-jacket",
-            "top_desktop": 50,
-            "left_desktop": 50,
+            "top_desktop": 20,
+            "left_desktop": 70,
             "top_mobile": 50,
             "left_mobile": 50
           }
