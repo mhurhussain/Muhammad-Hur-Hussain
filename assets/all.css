@@ -87,6 +87,10 @@
     letter-spacing: normal;
 }
 
+.hero-top-bar-mobile-block {
+    display: block;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
@@ -113,5 +117,8 @@
     .hero-top-bar-text-block,
     .hero-top-bar-btn-block {
         display: none;
+    }
+    .hero-top-bar-mobile-block {
+        display: block;
     }
 }
