@@ -203,7 +203,9 @@
 
 .product-grid-img img {
     width: 100%;
-    height: clamp(186px, vw, 444px);
+    height: clamp(186px, 30.833vw, 444px);
+    display: block;
+    object-fit: cover;
 }
 
 
