@@ -119,7 +119,7 @@
     object-fit: cover;
 }
 
-.hero-main-top-img-block img:last-child {
+.hero-main-top-img-block img:nth-child(2) {
     display: none;
 }
 
