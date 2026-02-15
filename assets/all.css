@@ -98,6 +98,7 @@
         position: absolute;
         top: -4px;
         left: 0;
+        cursor: pointer;
     }
     .hero-top-bar-hambuger-block svg.close {
         display: none;
