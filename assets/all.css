@@ -32,7 +32,7 @@
     width: 0%;
     height: 100%;
     z-index: -1;
-    
+    transition: width 0.3s ease-in-out;
 }
 
 /* Hero section */
