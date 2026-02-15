@@ -20,13 +20,13 @@
                       .product-grid-overlay-add {
                         top: {{ block.settings.top_desktop }}%;
                         left: {{ block.settings.left_desktop }}%;
-                        translate: translate(-{{ block.settings.top_desktop }}%, -{{ block.settings.left_desktop }}%);
+                        transform: translate(-{{ block.settings.top_desktop }}%, -{{ block.settings.left_desktop }}%);
                       }
                       @media only screen and (max-width: 768px) {
                         .product-grid-overlay-add {
                             top: {{ block.settings.top_mobile }}%;
                             left: {{ block.settings.left_mobile }}%;
-                            translate: translate(-{{ block.settings.top_mobile }}%, -{{ block.settings.left_mobile }}%);
+                            transform: translate(-{{ block.settings.top_mobile }}%, -{{ block.settings.left_mobile }}%);
                         }
                       }
                     {% endstyle %}
