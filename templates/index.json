@@ -149,8 +149,8 @@
             "select_product": "classic-leather-jacket",
             "top_desktop": 20,
             "left_desktop": 70,
-            "top_mobile": 50,
-            "left_mobile": 50
+            "top_mobile": 15,
+            "left_mobile": 62
           }
         },
         "products_PELkw9": {
