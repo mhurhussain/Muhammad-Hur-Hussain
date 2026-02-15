@@ -144,7 +144,7 @@
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: clamp(30px, 4.861vw, 70px);
-    line-height: 13.42px;
+    line-height: 100%;
     letter-spacing: normal;
 }
 
