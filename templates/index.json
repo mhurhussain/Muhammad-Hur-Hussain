@@ -84,7 +84,9 @@
       "settings": {
         "bg-color": "#ffffff",
         "top_bar_bg-color": "#F5F5F5",
-        "logo": "shopify://shop_images/Group_1000007777.png"
+        "logo": "shopify://shop_images/Group_1000007777.png",
+        "text_color": "",
+        "text": "Find the ideal gift for your loved ones."
       }
     }
   },
