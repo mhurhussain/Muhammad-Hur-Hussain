@@ -1,3 +1,7 @@
 {% style %}
-  
+  .product-grid-block-{{ section.id }} {
+    background: {{ section.settings.bg-color }};
+  }
 {% endstyle %}
+
+<div class="product-grid-block product-grid-block-{{ section.id }}"></div>
