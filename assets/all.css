@@ -238,5 +238,6 @@
     }
     .hero-main-bottom-content-block {
         width: 100%;
+        text-align: center;
     }
 }
