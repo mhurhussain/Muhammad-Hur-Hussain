@@ -101,7 +101,8 @@
     .hero-top-bar-hambuger-block.active svg.close {
         display: block;
     }
-    .hero-top-bar-text-block {
+    .hero-top-bar-text-block,
+    .hero-top-bar-btn-block {
         display: none;
     }
 }
