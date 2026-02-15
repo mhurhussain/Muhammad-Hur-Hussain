@@ -230,8 +230,8 @@
 
 .product-grid-overlay-add svg {
     display: block;
-    width: 8px;
-    height: 8px;
+    width: clamp(6px, 0.556vw, 8px);
+    height: clamp(6px, 0.556vw, 8px);
 }
 
 
