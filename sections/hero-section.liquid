@@ -8,6 +8,10 @@
   .hero-top-bar-text {
     color: {{ section.settings.text_color }};
   }
+  .hero-top-bar-btn-block a {
+    background-color: {{ section.settings.top_bar_btn_bg_color }};
+    color: {{ section.settings.top_bar_btn_label_color }};
+  }
 {% endstyle %}
 
 <div class="hero-block hero-block-{{ section.id }}">
