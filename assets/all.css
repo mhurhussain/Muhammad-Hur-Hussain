@@ -131,11 +131,13 @@
         opacity: 0;
         visibility: hidden;
         transform: translateY(-100%);
+        z-index: 0;
     }
     .hero-top-bar-mobile-block.active {
         opacity: 1;
         visibility: visible;
         transform: translateY(0%);
+        z-index: 1;
     }
     .hero-top-bar-mobile-innerblock {
         display: flex;
