@@ -236,4 +236,7 @@
     .hero-main-bottom-img-block {
         display: none;
     }
+    .hero-main-bottom-content-block {
+        width: 100%;
+    }
 }
