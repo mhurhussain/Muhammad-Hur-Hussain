@@ -177,7 +177,7 @@
 
 /* Products grid */
 .product-grid-block {
-    padding: clamp(40px, 6.25vw, 90px) 0 clamp();
+    padding: clamp(40px, 6.25vw, 90px) 0 clamp(23px, 3.542vw, 51px);
 }
 
 
