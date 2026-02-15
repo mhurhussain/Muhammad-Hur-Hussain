@@ -93,7 +93,10 @@
         "top_bar_hover_btn_label_color": "#ffffff",
         "show_top_bar_brn_arrow": true,
         "top_bar_btn_label": "choose gift",
-        "top_bar_btn_url": "#."
+        "top_bar_btn_url": "#.",
+        "bottom_bar_bg-color": "#F5F5F5",
+        "bottom_bar_text_color": "#000000",
+        "bottom_bar_text": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
       }
     }
   },
