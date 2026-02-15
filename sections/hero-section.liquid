@@ -28,7 +28,12 @@
                     {% comment %} Logo {% endcomment %}
                     <div class="hero-top-bar-logo-block">
                         <a href="{{ shop.url }}">
-                            
+                            <img
+                                src="{{ section.settings.logo | image_url: width: 150 }}"
+                                alt="{{ shop.name }}"
+                                width=""
+                                height=""
+                            >
                         </a>
                     </div>
                     {% comment %} Text {% endcomment %}
