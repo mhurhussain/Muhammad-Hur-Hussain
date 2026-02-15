@@ -119,6 +119,10 @@
     display: flex;
 }
 
+.hero-main-bottom-content-block {
+    width: 40%;
+}
+
 .hero-main-bottom-img-block {
     width: 60%;
 }
