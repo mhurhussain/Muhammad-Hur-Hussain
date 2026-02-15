@@ -113,7 +113,11 @@
     "product_grid_section_mgUwJc": {
       "type": "product-grid-section",
       "name": "Product Grid",
-      "settings": {}
+      "settings": {
+        "bg_color": "#ffffff",
+        "title_color": "#000000",
+        "title": "Tisso vison in the wild"
+      }
     }
   },
   "order": [
