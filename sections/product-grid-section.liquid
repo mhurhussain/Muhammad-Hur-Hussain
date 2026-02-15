@@ -22,7 +22,13 @@
                         left: {{ card_product.settings.left_desktop }}%;
                         translate: translate(-{{ card_product.settings.top_desktop }}%, -{{ card_product.settings.left_desktop }}%);
                       }
-
+                      @media only screen and (max-width: 768px) {
+                        .product-grid-overlay-add {
+                            top: {{ card_product.settings.top_mobile }}%;
+                            left: {{ card_product.settings.left_mobile }}%;
+                            translate: translate(-{{ card_product.settings.top_mobile }}%, -{{ card_product.settings.left_mobile }}%);
+                        }
+                      }
                     {% endstyle %}
                     <div class="product-grid" {{ block.shopify_attributes }}>
                         <div class="product-grid-img">
