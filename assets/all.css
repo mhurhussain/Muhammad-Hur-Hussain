@@ -330,6 +330,9 @@
     .hero-main-top-img-block img {
         height: 264px;
     }
+    ..product-grid-heading {
+        text-align: center;
+    }
     .product-grid-area {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
