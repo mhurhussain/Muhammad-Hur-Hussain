@@ -148,6 +148,12 @@
     letter-spacing: normal;
 }
 
+.hero-main-bottom-content-text-block p,
+.hero-main-bottom-content-text-block a,
+.hero-main-bottom-content-text-block li {
+
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
