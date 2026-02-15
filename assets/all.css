@@ -332,7 +332,6 @@
     }
     .product-grid-heading {
         text-align: center;
-        width: 100%;
     }
     .product-grid-area {
         grid-template-columns: repeat(2, minmax(0, 1fr));
