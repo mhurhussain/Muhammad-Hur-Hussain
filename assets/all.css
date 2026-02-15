@@ -120,5 +120,9 @@
     }
     .hero-top-bar-mobile-block {
         display: block;
+        position: fixed;
+        top: 65px;
+        left: 0;
+        width: 100%;
     }
 }
