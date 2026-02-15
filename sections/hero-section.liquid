@@ -29,6 +29,11 @@
   .hero-main-bottom-content-title {
     color: {{ section.settings.title_color }};
   }
+  .hero-main-bottom-content-text-block p,
+  .hero-main-bottom-content-text-block a,
+  .hero-main-bottom-content-text-block li {
+    color: {{ section.settings.desc_color }};
+  }
 {% endstyle %}
 
 <div class="hero-block hero-block-{{ section.id }}">
