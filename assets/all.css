@@ -233,4 +233,7 @@
     .hero-main-top-img-block img:last-child {
         display: block;
     }
+    .hero-main-bottom-img-block {
+        display: none;
+    }
 }
