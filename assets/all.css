@@ -14,9 +14,11 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: normal;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     gap: 18px;
+    
 }
 
 /* Hero section */
