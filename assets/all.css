@@ -126,6 +126,7 @@
         left: 0;
         width: 100%;
         Background-color: #F2F2F2;
+        padding: 25px 65.5px;
         transition: all 0.3s ease-in-out;
         opacity: 0;
         visibility: hidden;
