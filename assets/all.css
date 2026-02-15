@@ -140,6 +140,14 @@
     width: 100%;
 }
 
+.hero-main-bottom-content-title {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: clamp(, 4.861vw, 70px);
+    line-height: 13.42px;
+    letter-spacing: normal;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
