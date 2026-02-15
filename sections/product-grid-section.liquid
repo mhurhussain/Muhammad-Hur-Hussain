@@ -20,8 +20,9 @@
                       .product-grid-overlay-add {
                         top: {{ card_product.settings.top }}%;
                         left: {{ card_product.settings.left }}%;
-                        translate: translate(-{{ card_product.settings.top }}%, -{{ card_product.settings.left }}%);
+                        translate: translate(-{{ card_product.settings.top_desktop }}%, -{{ card_product.settings.left_desktop }}%);
                       }
+
                     {% endstyle %}
                     <div class="product-grid" {{ block.shopify_attributes }}>
                         <div class="product-grid-img">
