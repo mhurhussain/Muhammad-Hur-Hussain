@@ -221,6 +221,7 @@
     cursor: pointer;
     z-index: 1;
     transition: all 0.3s ease-in-out;
+    Background-color: #F8F8F8;
 }
 
 .product-grid-overlay-add:hover {
