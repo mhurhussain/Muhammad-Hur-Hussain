@@ -51,6 +51,7 @@
 /* Hero section */
 .hero-top-bar-block {
     padding: 10px 0;
+    position: relative;
 }
 
 .hero-top-bar-innerblock {
