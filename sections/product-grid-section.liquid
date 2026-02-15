@@ -17,13 +17,13 @@
                 {% for block in section.blocks %}
                     {% assign card_product = block.settings.select_product %}
                     {% style %}
-                      .product-grid-overlay-add {
+                      .product-grid-overlay-add-{{ block.id }} {
                         top: {{ block.settings.top_desktop }}%;
                         left: {{ block.settings.left_desktop }}%;
                         transform: translate(-{{ block.settings.top_desktop }}%, -{{ block.settings.left_desktop }}%);
                       }
                       @media only screen and (max-width: 768px) {
-                        .product-grid-overlay-add {
+                        .product-grid-overlay-add-{{ block.id }} {
                             top: {{ block.settings.top_mobile }}%;
                             left: {{ block.settings.left_mobile }}%;
                             transform: translate(-{{ block.settings.top_mobile }}%, -{{ block.settings.left_mobile }}%);
