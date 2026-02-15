@@ -14,17 +14,20 @@
                 {{ section.settings.title }}
             </h2>
             <div class="product-grid-area">
-                <div class="product-grid">
-                    <div class="product-grid-img">
-                        <img
-                            src=""
-                            alt=""
-                            width=""
-                            height=""
-                            loading=lazy
-                        >
+                {% for block in section.blocks %}
+                    {% assign card_product = block.settings.select_product %}
+                    <div class="product-grid">
+                        <div class="product-grid-img">
+                            <img
+                                src=""
+                                alt=""
+                                width=""
+                                height=""
+                                loading=lazy
+                            >
+                        </div>
                     </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
