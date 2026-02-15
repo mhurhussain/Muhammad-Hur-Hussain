@@ -18,15 +18,15 @@
                     {% assign card_product = block.settings.select_product %}
                     {% style %}
                       .product-grid-overlay-add {
-                        top: {{ card_product.settings.top_desktop }}%;
-                        left: {{ card_product.settings.left_desktop }}%;
-                        translate: translate(-{{ card_product.settings.top_desktop }}%, -{{ card_product.settings.left_desktop }}%);
+                        top: {{ block.settings.top_desktop }}%;
+                        left: {{ block.settings.left_desktop }}%;
+                        translate: translate(-{{ block.settings.top_desktop }}%, -{{ block.settings.left_desktop }}%);
                       }
                       @media only screen and (max-width: 768px) {
                         .product-grid-overlay-add {
-                            top: {{ card_product.settings.top_mobile }}%;
-                            left: {{ card_product.settings.left_mobile }}%;
-                            translate: translate(-{{ card_product.settings.top_mobile }}%, -{{ card_product.settings.left_mobile }}%);
+                            top: {{ block.settings.top_mobile }}%;
+                            left: {{ block.settings.left_mobile }}%;
+                            translate: translate(-{{ block.settings.top_mobile }}%, -{{ block.settings.left_mobile }}%);
                         }
                       }
                     {% endstyle %}
