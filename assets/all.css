@@ -131,4 +131,9 @@
         visibility: hidden;
         transform: translateY(-100%);
     }
+    .hero-top-bar-mobile-block.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0%);
+    }
 }
