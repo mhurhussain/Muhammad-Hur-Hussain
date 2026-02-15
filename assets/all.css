@@ -193,7 +193,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: start;
-    gap: 20px;
+    gap: clamp(4px, 1.389vw, 20px);
 }
 
 .product-grid-img {
