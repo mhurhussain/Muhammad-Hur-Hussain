@@ -115,6 +115,10 @@
     object-fit: cover;
 }
 
+.hero-main-bottom-innerblock {
+    display: flex;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
