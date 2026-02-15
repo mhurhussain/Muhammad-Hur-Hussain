@@ -91,9 +91,9 @@
         "top_bar_hover_btn_bg_color": "#000000",
         "top_bar_btn_label_color": "#000000",
         "top_bar_hover_btn_label_color": "#ffffff",
-        "show_top_bar_brn_arrow": false,
-        "top_bar_btn_label": "",
-        "top_bar_btn_url": ""
+        "show_top_bar_brn_arrow": true,
+        "top_bar_btn_label": "choose gift",
+        "top_bar_btn_url": "#."
       }
     }
   },
