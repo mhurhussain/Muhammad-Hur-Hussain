@@ -8,6 +8,14 @@
     padding-inline: 16px;
 }
 
+/* Hero section */
 .hero-top-bar-block {
     padding: 10px 0;
+}
+
+.hero-top-bar-innerblock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
