@@ -117,8 +117,8 @@
           "type": "products",
           "settings": {
             "select_product": "black-leather-bag",
-            "top_desktop": 60,
-            "left_desktop": 60,
+            "top_desktop": 58,
+            "left_desktop": 61,
             "top_mobile": 50,
             "left_mobile": 50
           }
