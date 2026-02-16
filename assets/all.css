@@ -310,6 +310,16 @@
     letter-spacing: normal;
 }
 
+.product-popup-content-desc p,
+.product-popup-content-desc a,
+.product-popup-content-desc li {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: -0.1px;
+}
+
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
