@@ -250,6 +250,8 @@
 
 .product-popup-innerblock {
     Background-color: #ffffff;
+    max-width: 310px;
+    margin: 0 auto;
 }
 
 
