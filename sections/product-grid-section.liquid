@@ -73,62 +73,62 @@
                                     </div>
                                     {% comment %} Variant {% endcomment %}
                                     <form method="post" action="/cart/add" class="product-popup-variant-block">
-                                <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}">
-                                
-                                {% unless card_product.has_only_default_variant %}
-                                  {% for option in card_product.options_with_values %}
-                                    <div class="variant-group">
-                                      <p class="variant-label">{{ option.name }}</p>
-                                      
-                                      {% if option.name == 'Color' or option.name == 'Colour' %}
-                                        <div class="variant-swatches">
-                                          {% for value in option.values %}
-                                            <input type="radio" 
-                                                   id="swatch-{{ block.id }}-{{ option.name }}-{{ forloop.index }}" 
-                                                   name="options[{{ option.name }}]" 
-                                                   value="{{ value | escape }}"
-                                                   {% if option.selected_value == value %}checked{% endif %}>
-                                            <label for="swatch-{{ block.id }}-{{ option.name }}-{{ forloop.index }}" 
-                                                   class="swatch-label"
-                                                   style="--swatch-color: {{ value | downcase }};">
-                                              {{ value }}
-                                            </label>
-                                          {% endfor %}
-                                        </div>
+                                        <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}">
+                                        
+                                        {% unless card_product.has_only_default_variant %}
+                                        {% for option in card_product.options_with_values %}
+                                            <div class="variant-group">
+                                            <p class="variant-label">{{ option.name }}</p>
+                                            
+                                            {% if option.name == 'Color' or option.name == 'Colour' %}
+                                                <div class="variant-swatches">
+                                                {% for value in option.values %}
+                                                    <input type="radio" 
+                                                        id="swatch-{{ block.id }}-{{ option.name }}-{{ forloop.index }}" 
+                                                        name="options[{{ option.name }}]" 
+                                                        value="{{ value | escape }}"
+                                                        {% if option.selected_value == value %}checked{% endif %}>
+                                                    <label for="swatch-{{ block.id }}-{{ option.name }}-{{ forloop.index }}" 
+                                                        class="swatch-label"
+                                                        style="--swatch-color: {{ value | downcase }};">
+                                                    {{ value }}
+                                                    </label>
+                                                {% endfor %}
+                                                </div>
 
-                                      {% else %}
-                                        <div class="size-select-wrapper">
-                                          <select name="options[{{ option.name }}]" onchange="this.nextElementSibling.querySelector('.size-text').innerText = this.value">
-                                            {% for value in option.values %}
-                                              <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
-                                                {{ value }}
-                                              </option>
-                                            {% endfor %}
-                                          </select>
-                                          
-                                          <div class="variant-size-selector">
-                                              <span class="size-text">
-                                                {{ option.selected_value }}
-                                              </span>
-                                              <span class="size-arrow">
-                                                  <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                  <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linecap="square"/>
-                                                  </svg>
-                                              </span>
-                                          </div>
-                                        </div>
-                                      {% endif %}
-                                    </div>
-                                  {% endfor %}
-                                {% endunless %}
+                                            {% else %}
+                                                <div class="size-select-wrapper">
+                                                <select name="options[{{ option.name }}]" onchange="this.nextElementSibling.querySelector('.size-text').innerText = this.value">
+                                                    {% for value in option.values %}
+                                                    <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                                                        {{ value }}
+                                                    </option>
+                                                    {% endfor %}
+                                                </select>
+                                                
+                                                <div class="variant-size-selector">
+                                                    <span class="size-text">
+                                                        {{ option.selected_value }}
+                                                    </span>
+                                                    <span class="size-arrow">
+                                                        <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 1L7 7L13 1" stroke="black" stroke-width="1.5" stroke-linecap="square"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                </div>
+                                            {% endif %}
+                                            </div>
+                                        {% endfor %}
+                                        {% endunless %}
 
-                                <button type="submit" class="popup-add-btn">
-                                    ADD TO CART 
-                                    <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;">
-                                      <path d="M14 1L18 5L14 9M0 5H18" stroke="white" stroke-width="1"/>
-                                    </svg>
-                                </button>
-                            </form>
+                                        <button type="submit" class="popup-add-btn ">
+                                            ADD TO CART 
+                                            <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;">
+                                            <path d="M14 1L18 5L14 9M0 5H18" stroke="white" stroke-width="1"/>
+                                            </svg>
+                                        </button>
+                                    </form>
                                     {% comment %}  {% endcomment %}
                                 </div>
                             </div>
