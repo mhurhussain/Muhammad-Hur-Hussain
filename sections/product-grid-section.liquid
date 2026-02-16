@@ -6,16 +6,16 @@
     color: {{ section.settings.title_color }}
   }
   .popup-add-btn {
-    background-color: {{ section.settings.content_btn_bg_color }};
-    color: {{ section.settings.content_btn_label_color }};
+    background-color: #000000;
+    color: #fff;
     }
     .popup-add-btn:hover {
-    color: {{ section.settings.content_hover_btn_label_color }};
+    color: #000000;
     }
     .popup-add-btn::before {
     background-color: {{ section.settings.content_hover_btn_bg_color }};
     }
-    .popup-add-btn:hover .btn-arrow svg path {
+    .popup-add-btn:hover svg path {
         fill: {{ section.settings.content_hover_btn_label_color }};
     }
 {% endstyle %}
