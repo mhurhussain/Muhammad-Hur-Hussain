@@ -292,6 +292,14 @@
     letter-spacing: normal;
 }
 
+.product-popup-content-price {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: normal;
+}
+
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
         padding: 23px 0;
