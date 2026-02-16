@@ -65,17 +65,26 @@
 
 <script>
   function togglePopup(popupId) {
+    // Select the popup being clicked
     var popup = document.getElementById(popupId);
     
+    // Select all other popups
     var allPopups = document.querySelectorAll('.product-popup');
+    
+    // Close others
     allPopups.forEach(function(el) {
       if (el.id !== popupId) {
         el.classList.remove('active');
       }
     });
 
+    // Toggle current
     if (popup) {
-      popup.classList.toggle('active');
+      if (popup.classList.contains('active')) {
+        popup.classList.remove('active');
+      } else {
+        popup.classList.add('active');
+      }
     }
   }
 </script>
