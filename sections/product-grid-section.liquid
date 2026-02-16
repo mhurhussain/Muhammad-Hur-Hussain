@@ -66,9 +66,9 @@
 <script>
   function togglePopup(popupId) {
     var popup = document.getElementById(popupId);
-    
     var allPopups = document.querySelectorAll('.product-popup');
     
+    // Close all other popups first
     allPopups.forEach(function(el) {
       if (el.id !== popupId) {
         el.classList.remove('active');
@@ -77,9 +77,15 @@
 
     if (popup) {
       if (popup.classList.contains('active')) {
+        // Closing the popup
         popup.classList.remove('active');
+        document.documentElement.style.overflow = '';
+        document.body.style.overflow = ''; 
       } else {
+        // Opening the popup
         popup.classList.add('active');
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
       }
     }
   }
