@@ -56,10 +56,11 @@
                                     <div class="product-popup-img-content">
                                         <div class="product-popup-img-block">
                                             <img
-                                                src=""
-                                                alt=""
-                                                width=""
-                                                height=""
+                                                src="{{ card_product.featured_image | image_url: width: 120 }}"
+                                                alt="{{ card_product.featured_image.alt | escape }}"
+                                                width="120"
+                                                height="140"
+                                                loading=lazy
                                             >
                                         </div>
                                     </div>
