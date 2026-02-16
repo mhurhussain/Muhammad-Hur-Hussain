@@ -432,6 +432,10 @@ border-left: 1px solid #ccc;
     fill: #ffffff;
 }
 
+.popup-add-btn::before {
+    background-color: #FFF544;
+}
+
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
