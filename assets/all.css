@@ -280,7 +280,9 @@
     display: block;
 }
 
-
+.product-popup-content-title-price-desc {
+    flex: 1;
+}
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
