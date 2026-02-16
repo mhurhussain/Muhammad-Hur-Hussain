@@ -261,6 +261,7 @@
 .close-popup {
     display: flex;
     justify-content: end;
+    cursor: pointer;
 }
 
 
