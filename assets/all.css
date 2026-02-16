@@ -428,9 +428,8 @@ border-left: 1px solid #ccc;
     color: #ffffff;
 }
 
-.popup-add-btn {
-    background-color: #000000;
-    color: #ffffff;
+.popup-add-btn svg path {
+    fill: #ffffff;
 }
 
 
