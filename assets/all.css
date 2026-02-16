@@ -242,6 +242,10 @@
     top: 0;
     left: 0;
     Background-color:rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .product-popup-innerblock {
