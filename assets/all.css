@@ -431,6 +431,9 @@ border-left: 1px solid #ccc;
     width: 100%;
     justify-content: center;
 }
+.popup-add-btn:hover {
+    color: #000000;
+}
 
 .popup-add-btn svg path {
     fill: #ffffff;
