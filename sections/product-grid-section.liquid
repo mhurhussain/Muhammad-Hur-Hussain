@@ -202,20 +202,19 @@
     const forms = document.querySelectorAll('.product-popup-variant-block');
     
     forms.forEach(form => {
-        // Find the JSON data script inside this specific form
+        
         const scriptTag = form.querySelector('.variant-data');
         if (!scriptTag) return;
         
         const variants = JSON.parse(scriptTag.textContent);
         const inputs = form.querySelectorAll('.single-option-selector');
         const hiddenInput = form.querySelector('.product-variant-id');
-        // Find price element inside the same popup
+       
         const priceElement = form.closest('.product-popup-innerblock').querySelector('.product-popup-content-price');
 
         inputs.forEach(input => {
             input.addEventListener('change', () => {
-                // Collect selected values from inputs
-                // We need to map them by index (0, 1, 2)
+                
                 let selectedOptions = [];
                 
                 inputs.forEach(item => {
@@ -226,14 +225,13 @@
                     }
                 });
 
-                // Find the matching variant in the JSON data
                 const matchedVariant = variants.find(variant => {
                     return variant.options.every((optionValue, index) => {
                          return optionValue === selectedOptions[index];
                     });
                 });
 
-                // Update the hidden ID and Price
+                
                 if (matchedVariant) {
                     if (hiddenInput) hiddenInput.value = matchedVariant.id;
                     if (priceElement) priceElement.innerText = matchedVariant.price;
