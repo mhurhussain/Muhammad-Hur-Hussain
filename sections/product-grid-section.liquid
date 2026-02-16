@@ -65,10 +65,8 @@
 
 <script>
   function togglePopup(popupId) {
-    // 1. Select the specific popup that was clicked
     var popup = document.getElementById(popupId);
     
-    // 2. Close all other popups first (optional, but good for UX)
     var allPopups = document.querySelectorAll('.product-popup');
     allPopups.forEach(function(el) {
       if (el.id !== popupId) {
@@ -76,7 +74,6 @@
       }
     });
 
-    // 3. Toggle the 'active' class on the clicked popup
     if (popup) {
       popup.classList.toggle('active');
     }
