@@ -246,7 +246,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    z-index: 5;
 }
 
 .product-popup.active {
