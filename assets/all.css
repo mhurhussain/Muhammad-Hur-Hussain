@@ -278,7 +278,7 @@
 
 .product-popup-img-content {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 8px;
     margin-top: 6px;
 }
@@ -309,6 +309,10 @@
     line-height: 120%;
     letter-spacing: normal;
     margin-top: 20px;
+}
+
+.product-popup-content-desc {
+    margin-top: 12px;
 }
 
 .product-popup-content-desc p,
