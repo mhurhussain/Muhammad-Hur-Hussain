@@ -430,7 +430,20 @@ border-left: 1px solid #ccc;
     border: none;
     width: 100%;
     justify-content: center;
+    transition: color 0.3s ease-in-out;
 }
+.popup-add-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #FFF544;
+    z-index: 1;
+    transition: width 0.3s ease-in-out;
+}
+
 .popup-add-btn:hover {
     color: #000000;
 }
