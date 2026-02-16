@@ -273,7 +273,12 @@
     margin-top: 6px;
 }
 
-
+.product-popup-img-block img {
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
 
 @media only screen and (max-width: 768px) {
     .hero-top-bar-block {
