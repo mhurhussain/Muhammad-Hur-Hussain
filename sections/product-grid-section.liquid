@@ -5,6 +5,19 @@
   .product-grid-innerblock-{{ section.id }} .product-grid-heading {
     color: {{ section.settings.title_color }}
   }
+  .popup-add-btn {
+    background-color: {{ section.settings.content_btn_bg_color }};
+    color: {{ section.settings.content_btn_label_color }};
+    }
+    .popup-add-btn:hover {
+    color: {{ section.settings.content_hover_btn_label_color }};
+    }
+    .popup-add-btn::before {
+    background-color: {{ section.settings.content_hover_btn_bg_color }};
+    }
+    .popup-add-btn:hover .btn-arrow svg path {
+        fill: {{ section.settings.content_hover_btn_label_color }};
+    }
 {% endstyle %}
 
 <div class="product-grid-block product-grid-block-{{ section.id }}">
