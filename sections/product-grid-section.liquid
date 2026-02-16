@@ -154,11 +154,12 @@
 </div>
 
 <script>
+  // 1. Popup Toggle Logic
   function togglePopup(popupId) {
     var popup = document.getElementById(popupId);
     var allPopups = document.querySelectorAll('.product-popup');
     
-    // Close all other popups first
+    // Close other popups
     allPopups.forEach(function(el) {
       if (el.id !== popupId) {
         el.classList.remove('active');
@@ -167,18 +168,62 @@
 
     if (popup) {
       if (popup.classList.contains('active')) {
-        // Closing the popup
         popup.classList.remove('active');
         document.documentElement.style.overflow = '';
         document.body.style.overflow = ''; 
       } else {
-        // Opening the popup
         popup.classList.add('active');
         document.documentElement.style.overflow = 'hidden';
         document.body.style.overflow = 'hidden';
       }
     }
   }
+
+  // 2. Variant Change Logic
+  document.addEventListener('DOMContentLoaded', function() {
+    const forms = document.querySelectorAll('.product-popup-variant-block');
+    
+    forms.forEach(form => {
+        // Find the JSON data script inside this specific form
+        const scriptTag = form.querySelector('.variant-data');
+        if (!scriptTag) return;
+        
+        const variants = JSON.parse(scriptTag.textContent);
+        const inputs = form.querySelectorAll('.single-option-selector');
+        const hiddenInput = form.querySelector('.product-variant-id');
+        // Find price element inside the same popup
+        const priceElement = form.closest('.product-popup-innerblock').querySelector('.product-popup-content-price');
+
+        inputs.forEach(input => {
+            input.addEventListener('change', () => {
+                // Collect selected values from inputs
+                // We need to map them by index (0, 1, 2)
+                let selectedOptions = [];
+                
+                inputs.forEach(item => {
+                    if (item.tagName === 'SELECT') {
+                        selectedOptions[item.getAttribute('data-index')] = item.value;
+                    } else if (item.type === 'radio' && item.checked) {
+                        selectedOptions[item.getAttribute('data-index')] = item.value;
+                    }
+                });
+
+                // Find the matching variant in the JSON data
+                const matchedVariant = variants.find(variant => {
+                    return variant.options.every((optionValue, index) => {
+                         return optionValue === selectedOptions[index];
+                    });
+                });
+
+                // Update the hidden ID and Price
+                if (matchedVariant) {
+                    if (hiddenInput) hiddenInput.value = matchedVariant.id;
+                    if (priceElement) priceElement.innerText = matchedVariant.price;
+                }
+            });
+        });
+    });
+  });
 </script>
 
 {% schema %}
