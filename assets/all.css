@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: 'Lustria';
+    src: url('https://cdn.shopify.com/s/files/1/0769/0915/0357/files/Lustria-Regular.woff2?v=1771202686') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 .jost { font-family: "Jost", sans-serif; }
+.lustria { font-family: 'Lustria', serif; }
+
 
 *{
     margin: 0;
@@ -287,14 +297,6 @@
 .product-popup-content-title {
     font-family: "Jost", sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 120%;
-    letter-spacing: normal;
-}
-
-.product-popup-content-price {
-    font-family: "Jost", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 120%;
     letter-spacing: normal;
